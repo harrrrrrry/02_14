@@ -7,7 +7,8 @@ function onDeviceReady() {
 }
 function authorInfo()
 {
-info= 'WSEI10141' 
+info= 'WSEI10141';
+navigator.notification.alert(info);
 
 }
 
